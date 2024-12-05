@@ -1,21 +1,46 @@
-{% extends "account/base.html" %}
-
+{% extends "base.html" %}
+{% load static %}
 {% load i18n %}
 
-{% block head_title %}{% trans "Signup" %}{% endblock head_title %}
+{% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
-<h1>{% trans "Sign Up" %}</h1>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+<section class="bg-light section-header">
+  <div class="container">
+    <div class="section-title">
+      <h1 class="text-uppercase"><img class="jj-icon" alt="UkMove Icon" src="{% static 'images/jj_logo.png' %}"></h1>
+    </div>
+  </div>
+</section>
 
-<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
-</form>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mt-3 offset-md-2">
+      <h2 class="text-center text-uppercase">{% trans "Sign Up" %}</h2>
 
-{% endblock content %}
+      <p class="mt-4 text-center text-muted">{% blocktrans %}
+        Welcome back to the UkMove blog. Already have an account?
+        <strong><a class="link text-uppercase" href="{{ login_url }}">sign in</a></strong>
+        instead.
+      {% endblocktrans %}</p>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-md-8 mt-3 offset-md-4">
+      <form class="signup" id="signup_form" method="post"
+        action="{% url 'account_signup' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        {% if redirect_field_value %}
+        <input type="hidden" name="{{ redirect_field_name }}"
+          value="{{ redirect_field_value }}">
+        {% endif %}
+        <button class="btn btn-signup right text-uppercase" type="submit">
+          {% trans "Sign Up" %} &raquo;</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
