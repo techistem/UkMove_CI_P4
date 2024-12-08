@@ -51,3 +51,66 @@ Goals for Returning Users
 * As a returning site user, I would like to quickly log into my account so I can interact with the community, comment on,
 and like posts shared by others.
 * As a returning site user, I would like to easily edit or delete any comments or posts I have made.
+
+Goals for Site Administrators
+* As a site administrator, I want to have an easily identifiable and branded admin area where I can manage users, blog posts, comments.
+* As a site administrator, I need a simple process to create blog posts, whether in draft form or published, for display on UkMove.
+* As a site administrator, I want to be able to easily update the "About" section and profile picture through an intuitive UI.
+* As a site administrator, I require the ability to approve user comments before they appear on the front-end of the site.
+* As a site administrator, I want the site to have a clean and simple UI that encourages users to engage and return.
+* As a site administrator, I want to be able to easily add new blog posts to the website from the front-end.
+* As a site administrator, I need the ability to edit or delete blog posts directly from the website's front-end.
+
+#### User Stories
+
+All epics, user stories with their acceptance criteria and tasks can be viewed on the 
+[Github Project Board](https://github.com/users/techistem/projects/18).
+
+### Wireframes
+
+### Wireframe Planning Process
+
+For UkMove, the wireframe section focuses on planning the structure and layout of the website to ensure an optimal user
+experience. The wireframes were designed to create a user-friendly, responsive platform where users can easily navigate 
+and find the information they need.
+
+1. ***Wireframes Created Using Balsamiq***
+The wireframe planning process began with digital wireframes created using the desktop version of 
+[Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage"). This tool allowed for clear visualization of the website’s 
+layout and functionality, focusing on key pages such as the homepage, blog posts, user registration, and areas for user interaction.
+
+2. ***Focus on User Experience***
+The wireframes were designed with a strong focus on providing a positive user experience. This involved planning intuitive
+navigation, ensuring users can easily access blog posts, create accounts, comment, and navigate between different sections 
+of the site. A seamless user journey was prioritized, making it simple for users to find information about living in the UK 
+and interact with the community.
+
+3. ***Future Development***
+Due to time constraints and unforeseen circumstances, certain pages, like the Destinations page, were postponed for 
+future development. 
+
+They can be found below:
+
+![Desktop Wireframes - Homepage]()
+
+![Desktop Wireframes - Contact & About Pages]()
+
+![Mobile Wireframes]()
+
+### Flow Chart
+
+A flowchart for UKMove was created using [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning) 
+to visually represent the user interactions and website processes, ensuring a smooth and efficient user experience. 
+This chart acts as a roadmap for the logical flow of actions on the site, helping to maintain consistency in its functionality.
+
+ Below is the flowchart of the main process of this website:
+
+ ![Flow Chart]()
+
+
+
+
+
+
+
+
