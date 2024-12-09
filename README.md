@@ -105,7 +105,7 @@ This chart acts as a roadmap for the logical flow of actions on the site, helpin
 
  Below is the flowchart of the main process of this website:
 
- ![Flow Chart]()
+ ![Flow Chart](documentation/features/flowcharts.png) 
 
 
 
