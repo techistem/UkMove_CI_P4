@@ -1,8 +1,8 @@
 # PP4 UkMove
 
-## Developer: Istem Karakas
-
 ![UkMove Mockup Image]()
+
+## Developer: Istem Karakas
 
 [View the live project here](https://ukmove-45adf8d4e460.herokuapp.com/)
 
@@ -107,10 +107,61 @@ This chart acts as a roadmap for the logical flow of actions on the site, helpin
 
  ![Flow Chart](documentation/features/flowcharts.png) 
 
+ ### Color Scheme
 
+ For UKMove, I selected colors inspired by the UK flag, focusing on creating a balanced and inviting visual theme. The color 
+ palette incorporates dark blue, red, and white, providing a strong and recognizable connection to the UK while maintaining 
+ a modern and professional appearance.
 
+The darker tones of blue and red were chosen to give the site a sophisticated and calm atmosphere, aligning with the sense of 
+stability and trust needed for users navigating big life changes like moving to a new country. White is used strategically for
+ text and accents to ensure clarity and readability against the darker backgrounds.
 
+I used [Coolors](https://coolors.co/) to experiment and refine the palette, ensuring the colors complement each other and provide sufficient contrast 
+for accessibility. The chosen colors not only reflect the identity of the UK but also create an aesthetically pleasing and 
+user-friendly experience.
 
+Details of the full colour palette can be found below:
 
+![Color Scheme](documentation/features/colour_scheme.png)
 
+## Fonts
+
+The fonts selected were from Google Fonts, Montserrat wits sans-serif as a backup font.
+
+## Structure
+
+### Wesites Pages
+
+The UKMove website was designed with a user-friendly layout to ensure easy navigation. A consistent navigation bar
+is located at the top of each page, providing quick access to key sections of the site. For smaller screens, 
+a hamburger menu is included to maintain functionality and accessibility on mobile devices.
+
+The footer contains all relevant links to UKMove’s social media platforms, allowing users to connect and engage further.
+By following UKMove on social media, users can stay updated on the latest content, tips, and community discussions, 
+helping to expand the platform's reach and foster a supportive network.
+
+The site consists of the following pages:
+   * The Home Page(the blog) of UKMove serves as the first point of contact for users and is designed to be welcoming, informative, and easy to navigate. Key elements of the page include: Hero Section, Navigation Bar, Introduction Text,
+   Call-to-Action Buttons, Featured Blog Posts or Updates, User Testimonials or Tips, Footer
+
+   * The About Page of UKMove provides an overview of the website's purpose and mission. It introduces the platform as a supportive space for individuals transitioning to life in the UK, offering practical tips, shared experiences, and a community to connect with.The page aims to build trust and create a welcoming impression for users exploring the site.Key elements include:
+   
+       - Mission Statement: A clear explanation of how UKMove helps newcomers adapt to their new environment.
+       - Core Values: Emphasis on community, inclusivity, and helpfulness.
+       - Team Information: A brief mention of the creators or contributors behind the site (if applicable).
+       - Encouragement to Join: A friendly call-to-action inviting users to become part of the UKMove community by sharing their own experiences or connecting with others.
+
+* The Contact Us page of UKMove allows registered users to send direct messages (DM) to the team. Additionally, users can contact UKMove via the displayed email address, phone number, or by visiting the listed physical address. This page ensures easy communication between users and the platform for any inquiries or support needs.
+   
+* The Login/Logout section of UKMove enables users to securely access their accounts. Registered users can log in by entering their credentials (username/email and password) to access personalized features such as commenting on posts, saving favourites, and managing their profile. Once logged in, users can easily log out to ensure their account remains secure. This section ensures that users have full control over their account access and helps maintain a personalized experience on the platform.
+
+* The Blog Detail section of UKMove provides a detailed view of individual blog posts, allowing logged-in users to engage with the content through commenting functionality. This feature encourages active participation and interaction, creating a dynamic and user-driven environment. Only registered users can access the comment functionality, ensuring a more personalized and secure experience.
+
+    - Comment on a Post: Registered users can leave comments on blog posts to share their thoughts, ask questions, or contribute additional information.
+    - Edit or Delete Comments: Users have the ability to edit or delete their comments at any time, providing full control over their contributions.
+
+* The My Profile section of UKMove allows registered users to view and manage their personal information
+
+* The Blog Admin section of UKMove is designed for super administrators, granting them full control over managing blog posts. Super administrators can create new blog posts, view all existing posts, edit content as needed, and delete posts that are no longer relevant. This section ensures that the platform's content remains accurate, up-to-date, and aligned with the website's standards. Through the CRUD(Create, Read, Update, Delete) functionality, super administrators can efficiently manage the entire blog, ensuring a smooth experience for both content creators and users.
 
