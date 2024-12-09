@@ -165,3 +165,22 @@ The site consists of the following pages:
 
 * The Blog Admin section of UKMove is designed for super administrators, granting them full control over managing blog posts. Super administrators can create new blog posts, view all existing posts, edit content as needed, and delete posts that are no longer relevant. This section ensures that the platform's content remains accurate, up-to-date, and aligned with the website's standards. Through the CRUD(Create, Read, Update, Delete) functionality, super administrators can efficiently manage the entire blog, ensuring a smooth experience for both content creators and users.
 
+## Tools & Technologies Used
+
+## Database Design
+
+Entity Relationship Diagrams (ERD) are essential for visualizing the structure of a database before implementing models. They help to define the relationships between various tables, ensuring that the database is efficient and meets the needs of the project. By planning these relationships early, potential issues can be avoided, saving time during the development process.
+
+For the UKMove project, a database schema was designed and mapped out before any coding began. Following best practices, the schema clearly outlines the relationships between the database tables to support the intended functionality of the platform.
+
+To create the ERD, a free version of [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning) was utilized, providing a comprehensive and visually clear representation of the database structure.
+
+Below is the database schema designed for the UKMove platform.
+
+* Updated project ERD:
+  
+  ![Database Schema](documentation/features/ukmove_flowchart.png)
+
+* Initial project ERD:
+
+  ![Database Schema](documentation/features/database_schema.png)
