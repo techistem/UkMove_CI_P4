@@ -257,12 +257,12 @@ ensuring efficient task management and focus on project objectives.
 * [Postgres](https://www.postgresql.org/)
 * [Summernote](https://summernote.org/)
 * Validation:
-  - WC3 Validator
-  - Jigsaw W3 Validator
-  - JShint
-  - Pycodestyle(PEP8)
-  - Lighthouse
-  - Wave Validator
+  - [WC3 Validator](https://validator.w3.org/)
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+  - [JShint](https://jshint.com/)
+  - [Pycodestyle(PEP8)](https://pypi.org/project/pycodestyle/)
+  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+  - [Wave Validator](https://wave.webaim.org/)
 
 
 
