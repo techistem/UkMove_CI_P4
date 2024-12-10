@@ -63,7 +63,9 @@ Goals for Site Administrators
 
 #### User Stories
 
-All epics, user stories with their acceptance criteria and tasks can be viewed on the 
+Agile methodology was used to manage the development of UKMove. A project board was created to track user 
+stories, each assigned a MoSCoW prioritization tag (must-have, should-have, could-have, won’t-have)All epics, 
+user stories with their acceptance criteria and tasks can be viewed on the 
 [Github Project Board](https://github.com/users/techistem/projects/18).
 
 ### Wireframes
@@ -184,3 +186,88 @@ Below is the database schema designed for the UKMove platform.
 * Initial project ERD:
 
   ![Database Schema](documentation/features/database_schema.png)
+
+## Agile Development Process
+
+The UKMove project was managed using [GitHub Projects](https://github.com/techistem/UkMove_CI_P4/projects?query=is%3Aopen) 
+to ensure an organized and efficient workflow aligned with Agile principles.
+
+* The project's tasks were organized as individual User Stories, each containing acceptance criteria and specific goals.
+
+* Each User Story was assigned a label based on the MoSCoW System (Must have, Should have, Could have, Won't have) to prioritize tasks effectively.
+
+* A clear task board was maintained, allowing for tracking progress and managing workload efficiently.
+
+* Story points were assigned to estimate the time and effort required for completing each User Story, ensuring realistic planning and timelines.
+
+This approach helped maintain focus and allowed for a structured development process throughout the project.
+
+![Agile Approach - Kanban Board](documentation/features/agile_approach.png)
+
+### GitHubProjects
+
+UkMove project was managed from the beginning using [GitHub Projects (View Project Here)](https://github.com/users/techistem/projects/18), in order to ensure an agile approach. Please refer above to [Agile Development Process](#agile-development-process) for more details. 
+
+### GitHub Issues
+
+[GitHub Issues](https://github.com/techistem/UkMove_CI_P4/issuesserved) as an another Agile tool. There, I used my own **User Story Template** to manage user stories.
+
+GitHub Issues were used to create User Stories for the project. Each issue was added to the UKMove Project and assigned relevant labels. Please refer above to [Agile Development Process](#agile-development-process) for more details.
+
+![Github Issues](documentation/github_issues.png)
+
+### MoSCoW Prioritisation
+
+The development process was structured by breaking tasks into detailed user stories, enabling a clear and manageable workflow.
+This approach allowed for the application of MoSCoW prioritization and appropriate labels to user stories within the Issues tab, 
+ensuring efficient task management and focus on project objectives.
+
+- **Must Have**: Essential features that are guaranteed to be delivered in the current iteration.
+- **Should Have**: Important features that add significant value but are not critical for immediate delivery.
+- **Could Have**: Features with lower impact that can be omitted without affecting core functionality.
+- **Won't Have**: Features that are not prioritized for this iteration and are planned for future development.
+
+## Technologies Used 
+
+### Languages & Frameworks
+
+* HTML
+* CSS
+* Javascript
+* Python
+* Django
+* Bootstrap
+
+### Libraries & Tools
+
+* [Am I Responsive](https://ui.dev/amiresponsive)
+* [Canva](https://summernote.org/)
+* [Balsamiq](https://balsamiq.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Lucid Chart](https://lucid.app/) 
+* [Cloudinary](https://cloudinary.com/home)
+* [Favicon.io](https://favicon.io/)
+* [Chrome dev tools](https://developer.chrome.com/docs/devtools/)
+* [Font Awesome](https://fontawesome.com/)
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Heroku Platform](https://www.heroku.com/)
+* [jQuery](https://jquery.com/)
+* [Postgres](https://www.postgresql.org/)
+* [Summernote](https://summernote.org/)
+* Validation:
+  - WC3 Validator
+  - Jigsaw W3 Validator
+  - JShint
+  - Pycodestyle(PEP8)
+  - Lighthouse
+  - Wave Validator
+
+
+
+
+
+
+
+  
