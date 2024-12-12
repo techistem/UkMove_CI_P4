@@ -4,28 +4,28 @@
 
 {% block content %}
 
-<section class="bg-light section-header">
-    <div class="container">
-      <div class="section-title">
-        <h1 class="text-uppercase"><img class="ukmove-icon" alt="UkMove Icon" src="{% static 'images/ukmove_logo.png' %}">Contact Us</h1>
-      </div>
-    </div>
-</section>
 
 <div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-6 my-5">
-            <h2>We'd Love to Hear from You!</h2>
-            <p>Have questions about settling in the UK? Need advice, support, or just want to share your experience? 
-                Reach out to us using the form below, or connect with us on social media. 
-                Let’s make your move to the UK easier together! 🇬🇧</p>
+    <div class="row justify-content-center align-items-center">
+        <!-- Contact Box -->
+        <div class="col-12 contact-form-container d-flex flex-column flex-md-row p-4">
+        <!-- Photo Column -->
+        <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
+            <img src="{% static 'images/contact-us.jpg' %}" alt="Contact Us" class="img-fluid rounded shadow contact-image">
+        </div>
+        <!-- Form and Text Column -->
+        <div class=" col-12 col-md-7 text-white contact-text">
+            <h1 class="text-uppercase">Send a message! 🇬🇧 </h1>
+            <h2>Ouestions? Comments? Just want to say hello? Please get in touch using this form.</h2>
 
-            <!-- Contact form -->
+        <!-- Contact form -->
+         <div class="contact-form">
             <form method="post">
                 {{ contact_form | crispy }}
                 {% csrf_token %}
                 <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-            </form>
+                </form>
+         </div>
         </div>
     </div>
 </div>

@@ -29,24 +29,17 @@
     <link rel="stylesheet" href="/static/css/style.css">
 
 </head>
-<style>
-    .navbar{
-        background: #00247D ; 
-        padding: 10px; 
-        border-radius: 0; 
-    }
-    .nav-item{
-        color:#FFFFFF;
-    }
-</style>
+
     
 <body class="d-flex flex-column h-100 main-bg">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light" id="nav-menu">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">UK<span class="red-o">Move</span>
-            </a>     
+            <a class="navbar-brand" href="{% url 'home' %}">
+                <img src="{% static 'images/ukmove-logo.png' %}" alt="Logo" class="logo">
+            </a>
+               
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -82,7 +75,6 @@
         </div>
     </nav>
     <!-- displaying Django messages -->
-  
 
 <div class="container">
     <div class="row">
