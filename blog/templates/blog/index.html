@@ -10,7 +10,7 @@
         <div class="col-md-12 p-0">
             <img src="/static/images/home_page.jpg" class="d-block w-100" alt="London Eye">
             <!-- Text Over Image Section -->
-            <div class="position-absolute top-0 end-0 p-4 text-white w-50 h-100 bg-transparent-gray">
+            <div class="position-absolute top-50 translate-middle-y left-70 bg-black text-center p-4 custom-box">
                 <h1>Welcome to UK</h1>
                 <p>"Be part of the journey: Share, connect, and help others settle in!"</p>
                 <p>Whether you're looking for advice on settling in, adapting to a new culture, navigating daily life, 
@@ -21,12 +21,7 @@
     </div>
 </div>
 
-<!-- Custom CSS -->
-<style>
-    .bg-transparent-gray {
-        background-color: rgba(128, 128, 128, 0.6); /* Semi-transparent gray */
-    }
-</style>
+
 
 
    
@@ -36,7 +31,7 @@
             <div class="row">
                 {% for post in post_list %}
                 <div class="col-md-4">
-                    <div class="card mb-4">
+                    <div class="card mb-4 custom-bg text-white">
                         <div class="card-body">
                             <div class="image-container">
                                 <!--Storing images on Cloudinary-->

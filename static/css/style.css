@@ -58,13 +58,44 @@
 
 
 
-.bg-transparent {
-    background-color: rgba(0, 0, 0, 0.5); 
+.left-70 {
+    left: 70%; 
+    
 }
 
 
+.custom-box {
+    width: 30%; 
+    height: 100%; /* Minimum yükseklik, içeriğin daha düzgün görünmesi için */
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white;
+    display: flex; /* İçeriği ortalamak için */
+    flex-direction: column; /* Dikey yönlendirme */
+    justify-content: center; /* Dikeyde ortala */
+    align-items: center; /* Yatayda ortala */
+    padding: 20px; /* Kutunun iç kenar boşluğu */
+}
+
+.custom-box h1 {
+    margin-bottom: 90px;
+    font-size: 2.5rem;
+}
+
+.custom-box p {
+    margin-bottom: 60px;
+    font-size: 1.4rem;
+}
+
+.text {
+    color: white;
+}
 
 
+.custom-bg {
+    background-color: #00247D !important; 
+
+
+}
 
 
 
