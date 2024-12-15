@@ -141,7 +141,7 @@ They can be found below:
 
 ## Flow Chart
 
-A flowchart for UKMove was created using [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning) 
+A flowchart for UKMove was created using [Lucidchart](https://www.lucidchart.com/pages/ERD-diagram-symbols-and-meaning) 
 to visually represent the user interactions and website processes, ensuring a smooth and efficient user experience. 
 This chart acts as a roadmap for the logical flow of actions on the site, helping to maintain consistency in its functionality.
 
