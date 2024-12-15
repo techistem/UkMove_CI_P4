@@ -60,36 +60,24 @@
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #cf142b;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .left-70 {
     left: 70%; 
-    
 }
 
 
 .custom-box {
     width: 30%; 
-    height: 100%; /* Minimum yükseklik, içeriğin daha düzgün görünmesi için */
+    height: 100%; 
     background-color: rgba(0, 0, 0, 0.2); 
     color: white;
-    display: flex; /* İçeriği ortalamak için */
-    flex-direction: column; /* Dikey yönlendirme */
-    justify-content: center; /* Dikeyde ortala */
-    align-items: center; /* Yatayda ortala */
-    padding: 20px; /* Kutunun iç kenar boşluğu */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
 }
 
 .custom-box h1 {
@@ -109,12 +97,7 @@
 
 .custom-bg {
     background-color: #00247D !important; 
-
-
 }
-
-
-
 
 
 
@@ -266,23 +249,12 @@
     text-decoration: underline;
 }
 
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
 
 .btn-delete {
     color: #fff;
-    background: #E84610;
+    background: #cf142b;
 }
 
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
-}
 
 .faded {
     color: rgb(172, 175, 175);

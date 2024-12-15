@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     'blog',
     'about',
     'contact',
-    'widget_tweaks',
 ]
 
 # Auto redirect user to homepage after login/out
