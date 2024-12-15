@@ -53,6 +53,22 @@
     font-size: 20px;
 }
 
+.post-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post-link:hover,
+.page-link {
+    color: #E84610;
+}
+
+
+
+
+
+
+
 
 
 
@@ -116,7 +132,7 @@
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: orange;
 }
 
 .red-o {
@@ -215,15 +231,7 @@
     width: 100%;
   }
 
-.post-link {
-    text-decoration: none;
-    color: #445261;
-}
 
-.post-link:hover,
-.page-link {
-    color: #E84610;
-}
 
 .post-title {
     margin-top: 10%;
