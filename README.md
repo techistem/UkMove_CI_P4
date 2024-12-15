@@ -1,12 +1,12 @@
-# PP4 UkMove
+# PP4 | UkMove
 
-![UkMove Mockup Image]()
+![UkMove Mockup Image](documentation/features/am-i-responsive.png)
 
 ## Developer: Istem Karakas
 
-[View the live project here](https://ukmove-45adf8d4e460.herokuapp.com/)
+💻 [View the live project here](https://ukmove-45adf8d4e460.herokuapp.com/)
 
-[View GitHub repository](https://github.com/techistem/UkMove_CI_P4)
+💻 [View GitHub repository](https://github.com/techistem/UkMove_CI_P4)
 
 ## Introduction
 
@@ -22,6 +22,36 @@ in discussions, fostering a supportive and collaborative community.
 
 UkMove is designed to create a welcoming environment where users can both seek and offer guidance, making the transition
 to life in the UK smoother and more enjoyable.
+
+## Table of Contents
+  - [UX](#ux)
+     - [Aim](#aim)
+     - [Application Goals](#application-goals)
+     - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+  - [Flow Chart](#flow-chart)
+  - [Color Scheme](#color-scheme)
+  - [Fonts](#fonts)
+  - [Structure](#structure)
+  - [Tools & Technologies Used](#tools&technologies-used)
+     - [Database Design](#database-design)
+  - [Agile Development Process](#agile-development-process)
+     - [GitHubProjects](#gitHub-projects)
+     - [GitHub Issues](#github-issues)
+     - [MoSCoW Prioritisation](#moscow-prioritisation)
+  - [Technologies Used](#technologies-used)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## UX
 
@@ -68,7 +98,9 @@ stories, each assigned a MoSCoW prioritization tag (must-have, should-have, coul
 user stories with their acceptance criteria and tasks can be viewed on the 
 [Github Project Board](https://github.com/users/techistem/projects/18).
 
-### Wireframes
+##### Back to [top](#table-of-contents)<hr>
+
+## Wireframes
 
 ### Wireframe Planning Process
 
@@ -93,13 +125,21 @@ future development.
 
 They can be found below:
 
-![Desktop Wireframes - Homepage]()
+![Desktop Wireframes - Homepage](documentation/features/Home_balsamiq.png)
 
-![Desktop Wireframes - Contact & About Pages]()
+![Desktop Wireframes - About Pages](documentation/features/About_balsamiq.png)
 
-![Mobile Wireframes]()
+![Desktop Wireframes - Contact Pages](documentation/features/Contact _balsamiq.png)
 
-### Flow Chart
+![Desktop Wireframes - Register Pages](documentation/features/Register_balsamiq.png)
+
+![Desktop Wireframes - Login Pages](documentation/features/Login_balsamiq.png)
+
+![Mobile Wireframes](documentation/features/mobile_balsamiq.png)
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Flow Chart
 
 A flowchart for UKMove was created using [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning) 
 to visually represent the user interactions and website processes, ensuring a smooth and efficient user experience. 
@@ -109,7 +149,7 @@ This chart acts as a roadmap for the logical flow of actions on the site, helpin
 
  ![Flow Chart](documentation/features/flowcharts.png) 
 
- ### Color Scheme
+ ## Color Scheme
 
  For UKMove, I selected colors inspired by the UK flag, focusing on creating a balanced and inviting visual theme. The color 
  palette incorporates dark blue, red, and white, providing a strong and recognizable connection to the UK while maintaining 
@@ -167,9 +207,11 @@ The site consists of the following pages:
 
 * The Blog Admin section of UKMove is designed for super administrators, granting them full control over managing blog posts. Super administrators can create new blog posts, view all existing posts, edit content as needed, and delete posts that are no longer relevant. This section ensures that the platform's content remains accurate, up-to-date, and aligned with the website's standards. Through the CRUD(Create, Read, Update, Delete) functionality, super administrators can efficiently manage the entire blog, ensuring a smooth experience for both content creators and users.
 
+##### Back to [top](#table-of-contents)<hr>
+
 ## Tools & Technologies Used
 
-## Database Design
+### Database Design
 
 Entity Relationship Diagrams (ERD) are essential for visualizing the structure of a database before implementing models. They help to define the relationships between various tables, ensuring that the database is efficient and meets the needs of the project. By planning these relationships early, potential issues can be avoided, saving time during the development process.
 
@@ -227,6 +269,8 @@ ensuring efficient task management and focus on project objectives.
 - **Could Have**: Features with lower impact that can be omitted without affecting core functionality.
 - **Won't Have**: Features that are not prioritized for this iteration and are planned for future development.
 
+##### Back to [top](#table-of-contents)<hr>
+
 ## Technologies Used 
 
 ### Languages & Frameworks
@@ -264,7 +308,7 @@ ensuring efficient task management and focus on project objectives.
   - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
   - [Wave Validator](https://wave.webaim.org/)
 
-
+##### Back to [top](#table-of-contents)<hr>
 
 
 
