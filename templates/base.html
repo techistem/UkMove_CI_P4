@@ -91,11 +91,16 @@
     <!-- Greet Logged in User/Display message-->
     <main class="flex-shrink-0 main-bg">
         {% if user.is_authenticated %}
-        <p class="text-end m-3">You are logged in as {{ user }}</p>
+        <div class="alert alert-success text-end m-3" role="alert">
+            You are logged in as <strong>{{ user }}</strong> 😊
+        </div>
         {% else %}
-        <p class="text-end m-3">You are not logged in</p>
+        <div class="alert alert-warning text-end m-3" role="alert">
+            You are not logged in. Please <a href="{% url 'account_login' %}">Login in</a>
+            
+        </div>
         {% endif %}
-
+        
         {% block content %}
         <!-- Content Goes here -->
         {% endblock content %}

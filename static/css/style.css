@@ -166,10 +166,10 @@
 
 .image-flash {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     min-width: 30%;
     left: -2px;
-    background-color: #188181;
+    background-color: rgba(0, 36, 125, 0.6);
 }
 
 .scale {
