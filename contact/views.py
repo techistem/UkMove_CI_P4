@@ -25,8 +25,8 @@ def contact_ukmove(request):
             messages.add_message(
                 request,
                 messages.SUCCESS,
-                "Contact request received! We'll try to respond within
-                2 working days.")  # noqa
+                "Contact request received! We'll try to respond within2 working days."
+                )
         else:
             messages.add_message(
                 request, messages.ERROR, "Invalid form. Failed to submit.")
