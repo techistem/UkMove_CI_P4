@@ -805,3 +805,4 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Mobile responsiveness issues | Test the site across different devices and screen sizes, and implement media queries to ensure the site is displayed correctly on mobile devices.|
 
 ##### Back to [top](#table-of-contents)<hr>
+
