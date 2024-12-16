@@ -693,19 +693,115 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ![Logout](documentation/validation/logout.lighthouse.png)
 </details>
 
-
-
-
 ## TESTING
 
+1. Manual testing
+2. Automated testing
+
+### Manual testing
+
+1. As a user, I am able to navigate the site smoothly, allowing me to access all the features effortlessly.
 
 
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on the 'Home' link in the navigation menu | The homepage should appear | Functions as intended |
+| Click on the 'About' link in the navigation bar | About page will load | Works as expected |
+| Click on the 'Contact' link in the navigation bar | Contact us page will load | Works as expected |
+| Click on the 'Logout' link in the navigation bar | Logout will occur, and the user will be redirected to the homepage | Works as expected |
+| Click on the 'Contact' link in the navigation bar | User will be directed to the Contact page | Pass |
+| Enter the name in the corresponding field | The field will accept both text and numbers | Pass |
+| Provide a valid email address | The field will only accept the correct email format | Pass | 
+| Type a message in the text area | The text area will accept free-form text | Pass |
+| Click the 'Submit' button | 	The user will be redirected to the Contact page with a blank form and a success message displayed | Pass |
+| Click the 'Back' button to return | The user will be taken back to the previous page | Pass |
+| Click on the 'Sign Up' button | User is redirected to the Sign Up page | Pass|
+| Enter a valid password (twice) | The field accepts only the correct password format | Pass |
+| Click the 'Sign Up' button with all valid details in the form | The user successfully completes the registration | Pass |
+| Click the 'Sign Up' button again | User is redirected to the Home page, logged in, and sees a success message | Pass |
+| Click on the 'Login' link | User is redirected to the Login page | Pass |
+| Enter a valid username | The field accepts only the correct username format | Pass |
+| Enter a valid password | The field accepts only the correct password format	| Pass |
+| Click the 'Login' button	| User is redirected to the Home page	| Pass |
+| Click the 'Logout' button | User is directed to the logout page	| Pass |
+| Click the 'Confirm Logout' button	| User is redirected to the Home page	| Pass |
+| Click the 'Delete Post' button	| A confirmation message appears asking if the user is sure they want to delete the post	| Pass |
+| Click the 'Delete Comment' button | A confirmation modal appears asking if the user is sure they want to delete the comment | Pass |
 
+<details><summary></summary>
 
+ ![register](documentation/testing/usercontent.png)
+ ![register2](documentation/testing/usercontent2.png)
+ ![Login](documentation/testing/login..pnhome.user.png)
+ ![Home](documentation/testing/home.user.png)
+ ![about](documentation/testing/about.user.png)
+ ![contact](documentation/testing/contact.user.png)
+ ![contact2](documentation/testing/contact2.user.png)
+</details>
 
+2. As a User I can use a navbar, footer, and social icons so that I can navigate the site, and access socials
 
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+ | See test 1 | See test 1 | Works as expected |
+ | Scroll to footer at bottom of page | find footer | Works as expected |
+ | Scroll to footer at bottom of page | find social links | Works as expected |
 
+<details><summary></summary>
 
+ ![footer](documentation/testing/footer.user.png)
+</details>
 
+3. As a Site Owner I can provide a contact us page so that users can get in touch with admin.
 
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on the 'Contact Us' link in the navigation bar | Contact us page will load| Works as expected |
 
+<details><summary></summary>
+
+ ![contactus](documentation/testing/contactus.png)
+</details>
+
+4. As a new user, I want the website to be user-friendly, with simple navigation and responsive design.
+
+<details><summary></summary>
+
+ ![navbar-item.png](documentation/testing/nav-bar.png)
+</details>
+
+5. As a new user, I would like an option to easily update or delete any comments I post.
+
+<details><summary></summary>
+
+ ![comment.png](documentation/testing/comment.2-page.png)
+
+ ![commentapproval.png](documentation/testing/approvalcomment.png)
+</details>
+
+6. As a returning user, I want the ability to quickly update or remove my comments without hassle.
+
+<details><summary></summary>
+
+ ![Edit.user](documentation/testing/edituser.png)
+</details>
+
+7. As a site administrator, I want a distinct and branded admin panel to efficiently manage users, blog posts, comments.
+
+<details><summary></summary>
+
+ ![adminn.png](documentation/testing/post.admin.png..png)
+</details>
+
+### Automated testing
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| Comments not displaying | Ensure the comment section is properly connected to the database and the comment data is being rendered correctly in the templates.|
+| Users unable to submit comments | Make sure the comment submission form is properly linked to the backend, and ensure validation checks are in place for content and user authentication. |
+| User registration not working | Ensure form data is being validated and processed properly in the backend, and errors related to incomplete or invalid inputs are handled.|
+| Mobile responsiveness issues | Test the site across different devices and screen sizes, and implement media queries to ensure the site is displayed correctly on mobile devices.|
+
+##### Back to [top](#table-of-contents)<hr>

@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+import sys
 import dj_database_url
 if os.path.isfile('env.py'):
     import env
@@ -25,16 +26,13 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY =
-'django-insecure-&w)6e_gleire1qdbsz(lpd$bz^1v*cm0gq6=-%0lxhg$jalvr5'
+SECRET_KEY = 'django-insecure-&w)6e_gleire1qdbsz(lpd$bz^1v*cm0gq6=-%0lxhg$jalvr5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False
+DEBUG = True
+# DEBUG = False
 
-ALLOWED_HOSTS =
-[
-    '8000-techistem-ukmovecip4-yumdm2ubfse.ws.codeinstitute-ide.net',
+ALLOWED_HOSTS = ['8000-techistem-ukmovecip4-yumdm2ubfse.ws.codeinstitute-ide.net',
     '.herokuapp.com']
 
 
@@ -118,6 +116,9 @@ WSGI_APPLICATION = 'UkMove.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+
+if 'test' in sys.argv:
+    DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net/",
