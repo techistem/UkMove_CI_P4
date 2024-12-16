@@ -129,7 +129,7 @@ They can be found below:
 
 ![Desktop Wireframes - About Pages](documentation/features/About_balsamiq.png)
 
-![Desktop Wireframes - Contact Pages](documentation/features/Contact _balsamiq.png)
+![Desktop Wireframes - Contact Pages](documentation/features/Contact_balsamiq.png)
 
 ![Desktop Wireframes - Register Pages](documentation/features/Register_balsamiq.png)
 
@@ -252,7 +252,7 @@ UkMove project was managed from the beginning using [GitHub Projects (View Proje
 
 ### GitHub Issues
 
-[GitHub Issues](https://github.com/techistem/UkMove_CI_P4/issuesserved) as an another Agile tool. There, I used my own **User Story Template** to manage user stories.
+[GitHub Issues](https://github.com/techistem/UkMove_CI_P4/issues) as an another Agile tool. There, I used my own **User Story Template** to manage user stories.
 
 GitHub Issues were used to create User Stories for the project. Each issue was added to the UKMove Project and assigned relevant labels. Please refer above to [Agile Development Process](#agile-development-process) for more details.
 
@@ -310,8 +310,152 @@ ensuring efficient task management and focus on project objectives.
 
 ##### Back to [top](#table-of-contents)<hr>
 
+## Features
+
+### Home page
+
+- On the home page, a large, high-quality image of the London Eye dominates the top of the page, symbolizing 
+the UK and creating an inviting and recognizable visual impact. On the left side of the hero image, there is a welcome message for the user.
+
+- Below the hero section, all blog posts are displayed in a 3-column grid layout. Each page shows 6 posts, with pagination for navigating through additional posts. Each post includes:
+     - A thumbnail image.
+     - The title of the blog post.
+     - A short snippet or description.
+     - The name of the author.
+     - The date created.
+
+- On smaller devices, the layout changes to one column per post to maximize usable screen space.
+
+- The 'Next' button takes the user to the next 6 blog posts (pagination).
+
+- The user can click on the blog post's title or excerpt to navigate to the post's detail page, where they can view the entire post.
+
+<details><summary>See feature images</summary>
+
+![Home page](documentation/features/feature-homepage.png)
+![Home page](documentation/features/feature-home-page2.png)
+</details>
+
+### Blog Details
+
+- Each blog post is clickable, directing the user to the detailed page for that specific post.
+
+- The header section includes the blog title, featured image, author name, and the date the post was published.
+
+- The blog post is displayed on the page for the user to read.
+
+- Below the post is a comment section. These features are read-only for non-logged-in users, while logged-in users can comment on the post.
+
+- Logged-in users can submit a comment using the comment form, which is then stored in the database. The comment must be approved by an administrator before it appears on the front end.
+
+- A logged-in user can edit or delete their own comment. When a comment is edited, the updated version is resubmitted to the database for approval.
+
+- If a user attempts to delete their comment, a modal will appear asking for confirmation to ensure they want to proceed with the deletion (defensive programming).
+
+- A user cannot submit a comment if it is empty.
+
+<details><summary>See feature images</summary>
+
+![Post page](documentation/features/feature-blog-page.png)
+![Post page](documentation/features/feature-blog2-page.png)
+![Post page](documentation/features/feature-blog3-page.png)
+![Post page](documentation/features/feature-blog4-page.png)
+![Post page](documentation/features/feature-blog5-page.png)
+</details>
+
+### About Page
+
+- The About page provides users with information about UkMove.
+
+- The content of the About page can be edited through a UI in the admin area.
+
+<details><summary>See feature images</summary>
+
+![About page](documentation/features/feature-about-page.png)
+![About page](documentation/features/feature-about-page2.png)
+</details>
+
+### Contact Page
+
+- The Contact page features a form that users can use to get in touch with UkMove.
+
+- Front-end validation ensures that users must complete all fields before submitting the contact form.
+
+- User-submitted contact requests can be marked as 'read' by administrators through the admin panel.
+
+<details><summary>See feature images</summary>
+
+![Contact page](documentation/features/feature-contact-page.png)
+![Contact page](documentation/features/feature-contact-page2.png)
+</details>
+
+### Onscreen notifications/messages (Validation)
+
+- User messages are displayed when data is successfully submitted to the database.
+
+- These onscreen notifications inform users when their data has been submitted to the database or when CRUD operations have been performed.
+
+<details><summary>See feature images</summary>
+
+![Validation](documentation/features/signin-validation.png)
+![Validation](documentation/features/logout-validation.png)
+![Validation](documentation/features/feature-validation2.png)
+![Validation](documentation/features/feature-validation3.png)
+![Validation](documentation/features/feature-validation4.png)
+</details>
+
+### Users - login, logout, register
+
+- Users can create an account by filling out the registration form, which is validated on the front end to ensure all required information is provided.
+
+- Password requirements:
+   - The password cannot be too similar to your other personal information.
+   - It must contain at least 8 characters.
+   - It cannot be a commonly used password.
+   - It cannot be entirely numeric.
+   - The password must be entered twice, and both entries must match.     
+
+- When the sign-up button is clicked, a new user is created, allowing them to sign in and access the user features of the website.
+
+- Users can log in through the login page by providing the correct username and password.
+
+- To log out, the user can simply click the logout button in the navigation bar.
+
+<details><summary>See feature images</summary>
+
+![signup page](documentation/features/feature-signupp.pnd.png)
+![signin page](documentation/features/feature-signinn.png)
+![logout page](documentation/features/feature--logout.png)
+</details>
+
+### Users - Registration/Signup 
+
+- All users who meet the registration requirements will be able to sign up for UkMove.
+
+<details><summary>See feature images</summary>
+
+![sign up page-filling](documentation/features/feature-signup-filling.png)
+![sign up page-filling.](documentation/features/feature-signin.png)
+</details>
+
+### Blog Admin Page
+
+- In the UkMove site, posts can be created from the admin panel. This can be considered a Create operation in the CRUD (Create, Read, Update, Delete) process.
+
+- Superusers can manage all posts from the admin panel.
+
+<details><summary>See feature images</summary>
+
+![Admin page](documentation/features/admin-add-post.png)
+</details>
+
+### Footer
+
+- The footer is simple with a navigation menu and social links.
+
+<details><summary>See feature images</summary>
+
+![Footer](documentation/features/feature-footer.png)
+</details>
 
 
-
-
-  
