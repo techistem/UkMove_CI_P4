@@ -561,8 +561,88 @@ I've utilized the suggested [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 ![style.css-w3](documentation/validation/style.css-w3.png)
 </details>
 
+### JavaScript Validation
 
+I've used the suggested [JShint Validator](https://jshint.com/) to check all of my JS files for validation.
 
+<details><summary>comments.js (1 undefined variable (bootstrap) from external files)</summary>
+
+![comments.js](documentation/validation/js-validation.png)
+</details>
+
+### Python
+
+I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com/) to validate all of my Python files.
+
+<details><summary>manage.py</summary>
+
+![manage.py](documentation/validation/manage.py.validation.png)
+</details>
+
+<details><summary>settings.py</summary>
+
+![settings.py](documentation/validation/setting.py-validator.png)
+</details>
+
+<details><summary>About/admin.py</summary>
+
+![About/admin.py](documentation/validation/about:admin.py.validation.png)
+</details>
+
+<details><summary>About/models.py</summary>
+
+![About/models.py](documentation/validation/about:models.py.png)
+</details>
+
+<details><summary>About/views.py</summary>
+
+![About/views.py](documentation/validation/about:views.py.png)
+</details>
+
+<details><summary>Blog/admin.py</summary>
+
+![Blog/admin.py](documentation/validation/blog:admin.py.png)
+</details>
+
+<details><summary>Blog/models.py</summary>
+
+![Blog/models.py](documentation/validation/blog:models.py.png)
+</details>
+
+<details><summary>Blog/urls.py</summary>
+
+![Blog/urls.py](documentation/validation/blog:urls.py.png)
+</details>
+
+<details><summary>Blog/views.py</summary>
+
+![Blog/views.py](documentation/validation/blog:views.py.png)
+</details>
+
+<details><summary>Contact/admin.py</summary>
+
+![Blog/contact.py](documentation/validation/contact:admin.py.png)
+</details>
+
+<details><summary>Contact/forms.py</summary>
+
+![Contact/forms.py](documentation/validation/contact:forms.py.png)
+</details>
+
+<details><summary>Contact/models.py</summary>
+
+![Contact/models.py](documentation/validation/contact:models.py.png)
+</details>
+
+<details><summary>Contact/urls.py</summary>
+
+![Contact/urls.py](documentation/validation/contact:urls.py.png)
+</details>
+
+<details><summary>Contact/views.py</summary>
+
+![Contact/views.py.](documentation/validation/contact:views.py.png)
+</details>
 
 
 
