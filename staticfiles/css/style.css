@@ -1,10 +1,173 @@
+.ukmove-logo {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 2px solid #00247D; 
+}
+
+.logo {
+    max-width: 75px; 
+    height: auto;     
+    border-radius: 50%;  
+}
+
+.contact-form-container {
+    background-color: rgba(0, 36, 125, 0.6);
+    color: white;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+    margin-bottom: 20px;
+}
+
+.contact-form-container img {
+    max-height: 600px;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    margin-left: auto;  
+    margin-right: auto; 
+    display: block; 
+}
+
+.contact-form-container h1, 
+.contact-form-container h2 {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.text-uppercase {
+    color: #00247D;
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.contact-form {
+    margin: 0 auto;    
+    max-width: 600px;   
+    padding: 20px;      
+}
+.form-label {
+    color: #00247D;
+    font-size: 20px;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post-link:hover,
+.page-link {
+    color: #cf142b;
+}
+
+.custom-box {
+    width: 90%; 
+    max-width: 600px; 
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.custom-box h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.custom-box p {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+/* Large Screens */
+@media (min-width: 1024px) {
+    .custom-box {
+        padding: 30px; 
+        width: 30%; 
+    }
+
+    .custom-box h1 {
+        font-size: 3rem; 
+    }
+
+    .custom-box p {
+        font-size: 1.6rem; 
+    }
+}
+
+/* Medium Screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .custom-box {
+        width: 60%; 
+        padding: 25px; 
+    }
+
+    .custom-box h1 {
+        font-size: 2.5rem; 
+    }
+
+    .custom-box p {
+        font-size: 1.4rem; 
+    }
+}
+
+/* Small Screens */
+@media (max-width: 767px) {
+    .custom-box {
+        width: 90%; 
+        padding: 15px; 
+    }
+
+    .custom-box h1 {
+        font-size: 2rem; 
+    }
+
+    .custom-box p {
+        font-size: 1.2rem; 
+    }
+}
+
+.text {
+    color: white;
+}
+
+.custom-bg {
+    background-color: #00247D !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: orange;
 }
 
 .red-o {
@@ -38,10 +201,10 @@
 
 .image-flash {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     min-width: 30%;
     left: -2px;
-    background-color: #188181;
+    background-color: rgba(0, 36, 125, 0.6);
 }
 
 .scale {
@@ -97,19 +260,13 @@
     background-position: center center;
 }
 
+
+
 .profile-image img{
     width: 100%;
   }
 
-.post-link {
-    text-decoration: none;
-    color: #445261;
-}
 
-.post-link:hover,
-.page-link {
-    color: #E84610;
-}
 
 .post-title {
     margin-top: 10%;
@@ -144,23 +301,12 @@
     text-decoration: underline;
 }
 
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
 
 .btn-delete {
     color: #fff;
-    background: #E84610;
+    background: #cf142b;
 }
 
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
-}
 
 .faded {
     color: rgb(172, 175, 175);
@@ -178,3 +324,22 @@
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
     color:rgb(255, 160, 160);
 }
+
+.navbar {
+    background: #00247D ; 
+    padding: 10px; 
+    border-radius: 0;
+}
+.nav-item {
+    color:#FFFFFF;
+    font-size: 30px;
+    margin-right: 120px;
+}
+
+.about-image {
+    width: 75%;
+}
+
+
+
+
