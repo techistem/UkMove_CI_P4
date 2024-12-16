@@ -33,6 +33,8 @@ to life in the UK smoother and more enjoyable.
   - [Color Scheme](#color-scheme)
   - [Fonts](#fonts)
   - [Structure](#structure)
+  - [Features](#features)
+  - [Future Features/Improvements](#future-featuresimprovements)
   - [Tools & Technologies Used](#tools&technologies-used)
      - [Database Design](#database-design)
   - [Agile Development Process](#agile-development-process)
@@ -40,6 +42,21 @@ to life in the UK smoother and more enjoyable.
      - [GitHub Issues](#github-issues)
      - [MoSCoW Prioritisation](#moscow-prioritisation)
   - [Technologies Used](#technologies-used)
+  - [Code Validation](#code-validation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - [Testing](#testing)
 
 
 
@@ -271,45 +288,6 @@ ensuring efficient task management and focus on project objectives.
 
 ##### Back to [top](#table-of-contents)<hr>
 
-## Technologies Used 
-
-### Languages & Frameworks
-
-* HTML
-* CSS
-* Javascript
-* Python
-* Django
-* Bootstrap
-
-### Libraries & Tools
-
-* [Am I Responsive](https://ui.dev/amiresponsive)
-* [Canva](https://summernote.org/)
-* [Balsamiq](https://balsamiq.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Lucid Chart](https://lucid.app/) 
-* [Cloudinary](https://cloudinary.com/home)
-* [Favicon.io](https://favicon.io/)
-* [Chrome dev tools](https://developer.chrome.com/docs/devtools/)
-* [Font Awesome](https://fontawesome.com/)
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [Google Fonts](https://fonts.google.com/)
-* [Heroku Platform](https://www.heroku.com/)
-* [jQuery](https://jquery.com/)
-* [Postgres](https://www.postgresql.org/)
-* [Summernote](https://summernote.org/)
-* Validation:
-  - [WC3 Validator](https://validator.w3.org/)
-  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
-  - [JShint](https://jshint.com/)
-  - [Pycodestyle(PEP8)](https://pypi.org/project/pycodestyle/)
-  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
-  - [Wave Validator](https://wave.webaim.org/)
-
-##### Back to [top](#table-of-contents)<hr>
-
 ## Features
 
 ### Home page
@@ -457,5 +435,140 @@ the UK and creating an inviting and recognizable visual impact. On the left side
 
 ![Footer](documentation/features/feature-footer.png)
 </details>
+
+
+### Future Features/Improvements
+
+- A profile page can be created, allowing users to edit their profiles, build social connections, 
+and engage more actively with the site.
+
+- Job Board
+A section dedicated to job opportunities for newcomers, including listings for part-time, full-time, or remote work, as well as tips for job hunting in the UK.
+
+- For users with limited English proficiency, it would be helpful to offer the site in different languages 
+(such as Turkish, Russian, etc.). This could include:
+
+   - Language Support: Provide multiple language options for users to navigate the site in their preferred 
+   language (e.g., Turkish, Russian). This would allow non-English speakers to feel more comfortable using 
+   the site and accessing relevant information.
+
+   - Translation Tool: Integrate a translation tool, such as Google Translate, that automatically translates
+    the content of the site into different languages. This would help users better understand the information
+     available and make it easier for them to navigate.
+
+   - Resources for English Practice: Offer resources for users who want to improve their English. This could 
+   include links to free English learning platforms, online courses, or language exchange programs.Additionally, 
+   interactive tools like quizzes or language games could be helpful for practicing English in a fun and engaging way.
+
+- Local Events and Communities
+
+A section listing social events, meetups, and community activities for new arrivals. This helps users find local events to build social connections and integrate into their new environment. It could include upcoming events, interest-based meetups, volunteering opportunities, and cultural activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Technologies Used 
+
+### Languages & Frameworks
+
+* HTML
+* CSS
+* Javascript
+* Python
+* Django
+* Bootstrap
+
+### Libraries & Tools
+
+* [Am I Responsive](https://ui.dev/amiresponsive)
+* [Canva](https://summernote.org/)
+* [Balsamiq](https://balsamiq.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Lucid Chart](https://lucid.app/) 
+* [Cloudinary](https://cloudinary.com/home)
+* [Favicon.io](https://favicon.io/)
+* [Chrome dev tools](https://developer.chrome.com/docs/devtools/)
+* [Font Awesome](https://fontawesome.com/)
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Heroku Platform](https://www.heroku.com/)
+* [jQuery](https://jquery.com/)
+* [Postgres](https://www.postgresql.org/)
+* [Summernote](https://summernote.org/)
+* Validation:
+  - [WC3 Validator](https://validator.w3.org/)
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+  - [JShint](https://jshint.com/)
+  - [Pycodestyle(PEP8)](https://pypi.org/project/pycodestyle/)
+  - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+  - [Wave Validator](https://wave.webaim.org/)
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Code Validation
+
+The W3C Markup Validation Service
+<details><summary>Home</summary>
+
+![Home page-w3](documentation/validation/w3-home-page.png)
+</details>
+
+<details><summary>About</summary>
+
+![About page-w3](documentation/validation/w3-about-page.png)
+</details>
+
+<details><summary>Contact</summary>
+
+![Contact page-w3](documentation/validation/w3-contact-page.png)
+</details>
+
+<details><summary>Register</summary>
+
+![Register page-w3](documentation/validation/w3-register-page.png)
+</details>
+
+<details><summary>Login</summary>
+
+![Login page-w3](documentation/validation/w3-login-page.png)
+</details>
+
+
+
+
+
+
+
+
+
+
+## TESTING
+
+
+
+
+
+
+
+
+
+
 
 
