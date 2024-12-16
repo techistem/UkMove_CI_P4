@@ -524,7 +524,9 @@ A section listing social events, meetups, and community activities for new arriv
 
 ## Code Validation
 
-The W3C Markup Validation Service
+### HTML
+
+The W3C Markup Validation Service [W3 Validaton Services](https://validator.w3.org/)
 <details><summary>Home</summary>
 
 ![Home page-w3](documentation/validation/w3-home-page.png)
@@ -550,6 +552,14 @@ The W3C Markup Validation Service
 ![Login page-w3](documentation/validation/w3-login-page.png)
 </details>
 
+### CSS
+
+I've utilized the suggested [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to check all of my CSS files for validation.
+
+<details><summary>Style.css</summary>
+
+![style.css-w3](documentation/validation/style.css-w3.png)
+</details>
 
 
 
