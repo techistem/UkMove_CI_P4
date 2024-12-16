@@ -644,7 +644,54 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 ![Contact/views.py.](documentation/validation/contact:views.py.png)
 </details>
 
+### Lighthouse
 
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+#### Mobile
+
+<details><summary>Home</summary>
+
+![Home](documentation/validation/homepage.lighthouse.png)
+</details>
+
+<details><summary>About</summary>
+
+![About](documentation/validation/aboutpage.lighthouse.png)
+</details>
+
+
+<details><summary>Contact</summary>
+
+![Contact](documentation/validation/contactpage.lighthouse.png)
+</details>
+
+<details><summary>Logout</summary>
+
+![Logout](documentation/validation/logoutpage.png)
+</details>
+
+#### Desktop
+
+<details><summary>Home</summary>
+
+![Home](documentation/validation/desktop.homepage.lighthouse.png)
+</details>
+
+<details><summary>About</summary>
+
+![About](documentation/validation/about.desktop.lihthouse.png)
+</details>
+
+<details><summary>Contact</summary>
+
+![Contact](documentation/validation/contact.lighthouse.png)
+</details>
+
+<details><summary>Logout</summary>
+
+![Logout](documentation/validation/logout.lighthouse.png)
+</details>
 
 
 
