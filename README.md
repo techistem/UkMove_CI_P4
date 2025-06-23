@@ -816,7 +816,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ### Version Control
 
-The website was created using Visual Studio Code editor. The webpage was deployed on Heroku and can be visisted [HERE](https://pinterest-clone-sem-29d41bc2ed17.herokuapp.com/).
+The website was created using Visual Studio Code editor. The webpage was deployed on Heroku and can be visisted [HERE](https://ukmove-45adf8d4e460.herokuapp.com/).
 
 Git was used to push changes in the local enviroment to the remote repository using the following commands:
 
