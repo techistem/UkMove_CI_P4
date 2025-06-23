@@ -151,18 +151,6 @@
     background-color: #00247D !important; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
@@ -260,13 +248,9 @@
     background-position: center center;
 }
 
-
-
 .profile-image img{
     width: 100%;
   }
-
-
 
 .post-title {
     margin-top: 10%;
@@ -301,12 +285,10 @@
     text-decoration: underline;
 }
 
-
 .btn-delete {
     color: #fff;
     background: #cf142b;
 }
-
 
 .faded {
     color: rgb(172, 175, 175);
